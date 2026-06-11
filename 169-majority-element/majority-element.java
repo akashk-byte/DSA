@@ -7,7 +7,7 @@ class Solution {
             if(count==0){
                 temp=nums[i];
             }
-            if(nums[i]==temp){
+            if(temp==nums[i]){
                 count++;
             }
             else{
