@@ -4,7 +4,8 @@ class Solution {
         int[] have  = new int[256];
         int left = 0;
         int len =0;
-        for(char ch : s1.toCharArray()){
+        for(int i=0;i<s1.length();i++){
+            char ch = s1.charAt(i);
             need[ch]++;
         }
         for(int right=0;right<s2.length();right++){
